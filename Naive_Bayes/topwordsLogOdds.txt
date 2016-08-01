@@ -1,0 +1,1 @@
+In here, the resultant words are different from the topwords. These are more of structure words -- different from stop words or function words. There are no overlapping words.
