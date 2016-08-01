@@ -1,0 +1,15 @@
+Increasing N seems to improve the accuracy. However, if the N is larger than the number of words in either Liberals/Conservatives dictionary/list, then, the classifier does not work.
+
+Observations:
+for N values:
+between 1 and 21: Accuracy is 0.8056
+between 2 and 50: Accuracy is 0.8333
+between 51 to 500: Accuracy is 0.8611
+
+peculiar Observations:
+
+for N = 5000, the accuracy dropped to 0.8333 [Inference is that one of the words deleted would have affected Liberals/Conservatives highly]
+
+for N = 40000, the accuracy raised to 0.8889 [This is expected as the list grows thinner, the words are very less based on which the classifier will test the accuracy]
+
+for N = 70000, the accuracy dropped to 0.6389 [This is because the liberals had a number that was lesser than 70000. Therefore, only conservatives that had higher than 70000 words could get more value than liberals. The classifier classifies everthing as conservatives]
