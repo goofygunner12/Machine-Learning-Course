@@ -1,0 +1,13 @@
+Question:
+How well did it do?
+
+Answer:
+Computationally, it is not advisable, especially, when the number of attributes is large. This is because the hypotheses space (also, concept space in this example) has all the combination of hypotheses, which gets larger with the number of attributes. 
+
+Functionally, this cannot classify unseen examples. For instance, consider, after the exhaustive candidate elimination, we have arrived at a list of hypotheses that can contain some of the hypothesis for a particular input instance (not seen in training example) resulting in all possible output. However, the positive side is that we get the plausible list of hypotheses for unseen input instances.
+
+
+Question: What, if anything, can you learn from this?
+
+Answer:
+If all the input instances are known, we can arrive at a more specific hypothesis, unlike Find-S algorithm. In addition, if we encounter a sample that was unseen during training, we can learn the new input instance and eliminate the rest of the hypotheses for that input instance (unseen during training). However, the new input instance must be a true instance, else, we are back to classification problem explained in previous question.
