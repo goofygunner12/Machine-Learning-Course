@@ -1,0 +1,2 @@
+Education dataset is more accurate on training.
+Politicians dataset is more accurate on testing.

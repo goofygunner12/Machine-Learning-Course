@@ -1,0 +1,1 @@
+Yes, the decision tree will work for both the dataset. 
