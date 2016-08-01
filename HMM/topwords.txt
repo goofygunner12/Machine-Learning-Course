@@ -1,3 +1,0 @@
-Yes, the two lists look different -- probability distribution wise.
-Yes, there are some overlapping words.
-These words are stop words, also classified as closed-class words (sub-class of function words).
